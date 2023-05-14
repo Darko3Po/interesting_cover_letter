@@ -1,0 +1,31 @@
+*{
+  font-family: monospace;
+  color: white;
+}
+
+body{
+  background-color: #333333;
+  text-align: left;
+  margin: 0;
+  padding: 0 10vw;
+}
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+p{
+  color: white;
+  font-size: 30px;
+  display: inline;
+  border-right: 6px solid white;
+  animation: 1s blink infinite;
+  padding-right: 10px;
+}
+
+@keyframes blink{
+  50%{
+      border-right: none;
+  }
+}
+
